@@ -25,4 +25,11 @@
 #CREATE DATABASE IF NOT EXISTS `dev_db_3` COLLATE 'utf8_general_ci' ;
 #GRANT ALL ON `dev_db_3`.* TO 'default'@'%' ;
 
+
+CREATE DATABASE IF NOT EXISTS `project_db` COLLATE 'utf8_general_ci' ;
+GRANT ALL ON `project_db`.* TO 'default'@'%' ;
+
+CREATE DATABASE IF NOT EXISTS `test` COLLATE 'utf8_general_ci' ;
+GRANT ALL ON `test`.* TO 'default'@'%' ;
+
 FLUSH PRIVILEGES ;
